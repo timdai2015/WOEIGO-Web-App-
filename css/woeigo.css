@@ -295,6 +295,15 @@ body, html {
     background-position: 0 0; } }
 	
 	
+/*-------------user profile box ----------------*/
+
+
+.basic-tab {
+	
+	margin-top:	100px;
+	margin-bottom:-30px;
+}
+	
 	
 	
 /*-------------user profile box ----------------*/
@@ -309,7 +318,7 @@ figure {
 }
 
 .profile-summary{
-	margin-top:100px;
+	margin-top:	0px;
 	
 }
 
