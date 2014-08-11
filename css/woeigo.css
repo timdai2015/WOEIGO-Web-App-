@@ -1,11 +1,19 @@
-body, html {
-	height: 100%;
+html {
+	min-height: 100%;
+	width: 100%;
+}
+
+body {
+	
+	min-height:100%;
+
 	width: 100%;
 }
 
 body,h2, h3, h4, h5, h6 {
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 300;
+	min-height: 100%;
 }
 
 h1 {
@@ -66,10 +74,6 @@ p.copyright {
   border: 0;
 }
 
-body, html {
-  height: 100%;
-  width: 100%;
-}
 
 /* ================================== */
 /* =========Sign in/up page========== */
@@ -694,11 +698,33 @@ span.tags
 
 /*---------------Input Type File Button Css----------------- */
 
-.memeber {
+.member {
 	
 	margin-top:100px;
 	
 }
 
+/*----------------------Sticky Footer--------------------- */
+
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  /* .push must be the same height as footer */
+}
+.site-footer {
+}
 
 
