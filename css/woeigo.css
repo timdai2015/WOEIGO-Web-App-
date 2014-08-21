@@ -312,8 +312,15 @@ p.copyright {
 	
 /*-------------user profile box ----------------*/
 
+
+.btn-group-option {
+	position:relative;
+	display: inline-block;
+	vertical-align:middle;
+}
+
 .btn-option{
-		width:90%
+		width:85%
 }
 
 figure {
