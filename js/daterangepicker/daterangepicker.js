@@ -380,7 +380,8 @@
 
         move: function () {
             var parentOffset = {
-                top: this.parentEl.offset().top - (this.parentEl.is('body') ? 0 : this.parentEl.scrollTop()),
+				/* -----------minus 140 (px) to bring the window to the right place --------------*/
+                top: this.parentEl.offset().top - (this.parentEl.is('body') ? 0 : this.parentEl.scrollTop()) - 140,
                 left: this.parentEl.offset().left - (this.parentEl.is('body') ? 0 : this.parentEl.scrollLeft())
             };
             if (this.opens == 'left') {
