@@ -27,12 +27,8 @@
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
     
     <!-- SIMPLE bootstrap3 wysihtml5 - text editor -->
-    <link rel="stylesheet" type="text/css" href="lib/css/bootstrap.min.css" />
+    <!-- See the javascript part at the bottom of the pages -->
     <link rel="stylesheet" type="text/css" href="src/bootstrap-wysihtml5.css" />
-    <script src="lib/js/wysihtml5-0.3.0.js"></script>
-    <script src="lib/js/jquery-1.7.2.min.js"></script>
-    <script src="lib/js/bootstrap.min.js"></script>
-    <script src="src/bootstrap3-wysihtml5.js"></script>
 
 
 </head>
@@ -90,7 +86,7 @@
                     </li>-->
 					
                     
-                <li><a href="#"><span class="glyphicon glyphicon-plus"></span> Project</a></li>
+                <!--<li><a href="#"><span class="glyphicon glyphicon-plus"></span> Project</a></li>-->
                 <li><a href="#"><span class="glyphicon glyphicon-globe"></span> Explore</a></li>
                 <!-- /.dropdown -->
                 <li class="dropdown">
@@ -213,14 +209,14 @@
                 <div class="col-xs-4 bs-wizard-step disabled"><!-- complete -->  <!-----------swith  "complete" with " disabled" ---------->
                   <div class="text-center bs-wizard-stepnum">Project Plan</div>
                   <div class="progress"><div class="progress-bar"></div></div>
-                  <a href="#" class="bs-wizard-dot"></a>
+                  <a href="project_create2.html" class="bs-wizard-dot"></a>
                   <div class="bs-wizard-info text-center">Step 2</div>
                 </div>
                 
                 <div class="col-xs-4 bs-wizard-step disabled"><!-- active -->  <!-----------swith  "complete" with " disabled" ---------->
                   <div class="text-center bs-wizard-stepnum">Payment Information</div>
                   <div class="progress"><div class="progress-bar"></div></div>
-                  <a href="#" class="bs-wizard-dot"></a>
+                  <a href="project_create3.html" class="bs-wizard-dot"></a>
                   <div class="bs-wizard-info text-center"> Step 3</div>
                 </div>
             </div>
@@ -253,7 +249,13 @@
       </div> -->
     	
       <div class="panel-body">
-                            
+
+                 <div class="text-center">
+                    <button type="button" class="btn btn-warning pull-right ">Save</button>              
+                  <!-- -------buck tape ------------>
+                  </br>
+                  </br>
+                 </div>                            
                                   
                  <div class="col-lg-offset-2 col-lg-8">
                       <form role="form">
@@ -273,15 +275,60 @@
                       <div class="form-group">
                           <label>Causes</label>
                           <select id="category" name="category" class="form-control input-xlarge">
-                          <option value="" selected="selected">(Select a category)</option>
-                          		<option value="">Environmental</option>
-                              <option value="">Humanitarian</option>
-                              <option value="">Animal Welfare</option>
-                              <option value="">category</option>
-                              <option value="">category</option>
-                              <option value="">category</option>
-                              <option value="">category</option>
-                              <option value="">category</option>
+                          <option value="" selected="selected">Select a category</option>
+                          <option value="5;30;31;32">Animals</option>
+                          <option value="30">- Animal Welfare</option>
+                          <option value="31">- Wildlife Preservation</option>
+                          <option value="32">- Zoos</option>
+                          <option value="58;59;60;61;62;15;16">Humanitarian</option>
+                          <option value="59">- Criminal Justice and Prevention</option>
+                          <option value="60">- Disaster Relief</option>
+                          <option value="61">- Family Services</option>
+                          <option value="62">- Food Banks</option>
+                          <option value="15">- Homelessness and Shelter</option>
+                          <option value="16">- Public Safety</option>
+                          <option value="4;51;52;53;54">Environmental</option>
+                          <option value="51">- Climate Change</option>
+                          <option value="52">- Pollution Control</option>
+                          <option value="53">- Protection and Conservation</option>
+                          <option value="54">- Recycling</option>
+                          <option value="1;34;33;35;36;37">Arts and Culture</option>
+                          <option value="34">- Historical Societies</option>
+                          <option value="33">- Libraries</option>
+                          <option value="35">- Museums</option>
+                          <option value="36">- Performing Arts</option>
+                          <option value="37">- Public Broadcasting and Media</option>
+                          <option value="38;39;40;41;18">Children and Youth</option>
+                          <option value="39">- Adoption</option>
+                          <option value="40">- Foster Care</option>
+                          <option value="41">- Mentoring</option>
+                          <option value="18">- Youth Development</option>
+                          <option value="42;22;24;17;43">Community and Society</option>
+                          <option value="22">- Civil Rights</option>
+                          <option value="24">- Philanthropy</option>
+                          <option value="17">- Sports and Recreation</option>
+                          <option value="43">- Think Tanks</option>
+                          <option value="44;13;45;46;47">Economic Development</option>
+                          <option value="13">- Job Training and Employment</option>
+                          <option value="45">- Microfinance</option>
+                          <option value="46">- Rural Development</option>
+                          <option value="47">- Urban Development</option>
+                          <option value="2;48;73;49;50">Education</option>
+                          <option value="48">- Elementary and Secondary</option>
+                          <option value="73">- Public Schools</option>
+                          <option value="49">- Universities</option>
+                          <option value="50">- Vocational, Technical and Adult</option>
+                          
+                          <option value="6;55;9;56;10;8;57">Health</option>
+                          <option value="55">- Addiction and Substance Abuse</option>
+                          <option value="9">- Diseases and Disorders</option>
+                          <option value="56">- Hospitals and Healthcare Facilities</option>
+                          <option value="10">- Medical Research</option>
+                          <option value="8">- Mental Health and Crisis</option>
+                          <option value="57">- Nutrition</option>
+                          
+                          <option value="25">Science and Technology</option>
+                              
                           </select>
                       </div>
                       
@@ -586,16 +633,16 @@
               <div class="hero-unit" >
  
        				 <textarea class="textarea form-control" placeholder="Describe your project ..." style=" height: 200px"></textarea>
-    		  </div>
+    		   </div>
              
              
               
               <!-- -------buck tape ------------>
               </br>
               <div class="text-center">
-              
-    			<button type="button" class="btn btn-info  center-block">Continue</button>
-                
+              	 <a href="project_create2.html">
+                <button type="button" class="btn btn-info ">Continue</button>
+                </a>
               <!-- -------buck tape ------------>
               </br>
         	   </div>
@@ -649,7 +696,16 @@
     
 
 
+
+
+
     <!-------simple editor bootstrap3 wysihtml5-------->
+    
+    <script src="lib/js/wysihtml5-0.3.0.js"></script>
+    <script src="lib/js/jquery-1.7.2.min.js"></script>
+    <script src="lib/js/bootstrap.min.js"></script>
+    <script src="src/bootstrap3-wysihtml5.js"></script>
+
 	<script>
         $('.textarea').wysihtml5();
     </script>
@@ -658,11 +714,12 @@
         $(prettyPrint);
     </script>   
  
-
-		
-    <!-- JavaScript Search dropdown buttons? -->
-    <!--<script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
+	
+    <!-- Search interaction at the top -->
+    <!-- Need to be placed after the "simple editor javascript. but not sure why -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <!--<script src="js/bootstrap.js"></script>
+    <!-- the part above needs to be removed or the search dropdown or the editor won't work properly, because the other bootstrap.(min).js will work both for this and other function, but this bootstrap only works for this feature-->
     <script type="text/javascript">
 	$(document).ready(function(e){
     $('.search-panel .dropdown-menu').find('a').click(function(e) {
@@ -673,10 +730,10 @@
 		$('.input-group #search_param').val(param);
 			});
 		});
-	</script>-->
-    
-    
- 
+	</script>
+
+		
+  
     
 
 </body>

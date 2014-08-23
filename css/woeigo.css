@@ -1322,7 +1322,7 @@ img {
 }
 
 .bs-wizard > .bs-wizard-step.disabled a.bs-wizard-dot{ 
-pointer-events: none; 
+/*pointer-events: none; */
 }
 
 /*END Form Wizard*/   
