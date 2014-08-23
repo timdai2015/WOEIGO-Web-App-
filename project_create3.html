@@ -215,8 +215,8 @@
                   <div class="bs-wizard-info text-center">Step 2</div>
                 </div>
                 
-                <div class="col-xs-4 bs-wizard-step disabled"><!-- active -->  <!-----------swith  "complete" with " disabled" ---------->
-                  <div class="text-center bs-wizard-stepnum">Payment Information</div>
+                <div class="col-xs-4 bs-wizard-step complete"><!-- active -->  <!-----------swith  "complete" with " disabled" ---------->
+                  <div class="text-center bs-wizard-stepnum">Account Information</div>
                   <div class="progress"><div class="progress-bar"></div></div>
                   <a href="#" class="bs-wizard-dot"></a>
                   <div class="bs-wizard-info text-center">Step 3</div>
@@ -254,293 +254,39 @@
                             
                                   
                  <div class="col-lg-offset-2 col-lg-8">
-                      <form role="form">
-                      <!-- -------buck tape ------------>
-                      </br>
-                      </br>
-                      <div class="form-group">
-                          <label>Goal</label>
-                          <textarea class="form-control" placeholder=" Variables"></textarea>
-                      </div>
-                      
-                      
-                      <!---------Time ------------>
-                      <!-- Date and time range -->
-                                     <div class="form-group">
-                                        <label>Days</label>
-                                        <div class="input-group">
-                                            <div class="input-group-addon">
-                                                <i class="fa fa-calendar"></i>
-                                            </div>
-                                            <input type="text" class="form-control pull-right" id="reservation" placeholder="Start Date - End Date"/>
-                                        </div><!-- /.input group -->
-                                    	</div><!-- /.form group -->
 
-                                   
-                                    <!-- Date and time range -->
-                                    <!--<div class="form-group">
-                                        <label>Date range button:</label>
-                                        <div class="input-group">
-                                            <button class="btn btn-default pull-right" id="daterange-btn">
-                                                <i class="fa fa-calendar"></i> Date range picker
-                                                <i class="fa fa-caret-down"></i>
-                                            </button>
-                                        </div>
-                                    </div>-->
-                                    
-                      
-                      
-          
-                      <!-- -------Cost Total ------------>
-                      	<label>Cost Total</label>
-                       <div class="form-group input-group">
-                          
-                          <span class="input-group-addon">$</span>
-                          <input class="form-control" placeholder="0">
-                          <span class="input-group-addon">.00</span>
-                          
-                      </div>
+                  </br>
 
-              </form>  <!-- -------End of the pervious form ------------>
-              
-
-                     
-                  <!-- -------Detailed costs ------------>    
-                  
-                  <!-------Item 1 ------------> 
-                  <div class="row">
-                      <div class="col-md-6 col-md-offset-1">
-                          <div class="form-group">
-                              <label>Cost Breakdown</label>
-                              <!--<input type="text" class="form-control" placeholder="Item 1">-->
-                              
-                              <select id="category" name="category" class="form-control input-xlarge">
-                          		<option value="" selected="selected">Item 1</option>
-                          		<option value="">Material</option>
-                              <option value="">Tech</option>
-                              <option value="">Human Resources</option>
-                              <option value="">More</option>
-
-                         	 	</select>
-                              
-                              
-                          </div>
-                      </div>
-                      <div class="col-md-5">
-                     			<label>Costs</label>
-                          		<div class="form-group input-group">
-                          		<span class="input-group-addon">$</span>
-                              <input type="text" class="form-control" placeholder="0">
-                              <span class="input-group-addon">.00</span>
-                          </div>
-                      </div>
-                  </div>
-                  <!-------Item 2 ------------> 
-                  <div class="row">
-                      <div class="col-md-6 col-md-offset-1">
-                          <div class="form-group">
-                              <!--<input type="text" class="form-control" placeholder="Item 1">-->
-                              
-                              <select id="category" name="category" class="form-control input-xlarge">
-                          		<option value="" selected="selected">Item 2</option>
-                          		<option value="">Material</option>
-                              <option value="">Tech</option>
-                              <option value="">Human Resources</option>
-                              <option value="">More</option>
-
-                         	 	</select>
-                          </div>
-                      </div>
-                      <div class="col-md-5">
-                          		<div class="form-group input-group">
-                          		<span class="input-group-addon">$</span>
-                              <input type="text" class="form-control" placeholder="0">
-                              <span class="input-group-addon">.00</span>
-                          </div>
-                      </div>
-                  </div>
-                  
-                  <!-------Item 3 ------------> 
-                  <div class="row">
-                      <div class="col-md-6 col-md-offset-1">
-                          <div class="form-group">
-                              <!--<input type="text" class="form-control" placeholder="Item 1">-->
-                              
-                              <select id="category" name="category" class="form-control input-xlarge">
-                          		<option value="" selected="selected">Item 3</option>
-                          		<option value="">Material</option>
-                              <option value="">Tech</option>
-                              <option value="">Human Resources</option>
-                              <option value="">More</option>
-
-                         	 	</select>
-                          </div>
-                      </div>
-                      <div class="col-md-5">
-                          		<div class="form-group input-group">
-                          		<span class="input-group-addon">$</span>
-                              <input type="text" class="form-control" placeholder="0">
-                              <span class="input-group-addon">.00</span>
-                          </div>
-                      </div>
-                  </div>
-                  <!-------Item 4 ------------> 
-                  <div class="row">
-                      <div class="col-md-6 col-md-offset-1">
-                          <div class="form-group">
-                              <!--<input type="text" class="form-control" placeholder="Item 1">-->
-                              
-                              <select id="category" name="category" class="form-control input-xlarge">
-                          		<option value="" selected="selected">Item 4</option>
-                          		<option value="">Material</option>
-                              <option value="">Tech</option>
-                              <option value="">Human Resources</option>
-                              <option value="">More</option>
-
-                         	 	</select>
-                          </div>
-                      </div>
-                      <div class="col-md-5">
-                          		<div class="form-group input-group">
-                          		<span class="input-group-addon">$</span>
-                              <input type="text" class="form-control" placeholder="0">
-                              <span class="input-group-addon">.00</span>
-                          </div>
-                      </div>
-                  </div>
-                  
-                  <!--------------Dynamic Form ---------------> 
-                  <!-------Add another COST button------------> 
-                 <!-- <div class="row">
-                      <div class="col-md-6 col-md-offset-1">
-                          <div class="form-group">
-                             
-                              
-                              <form role="form" autocomplete="off">
-                              <div class="entry input-group ">
-                                  <input class="form-control" name="fields[]" type="text" placeholder="Add New Item" />
-                                  
-                                 
-                                  
-                                  <span class="input-group-btn">
-                                      <button class="btn btn-success btn-add" type="button">
-                                          <span class="glyphicon glyphicon-plus"></span>
-                                      </button>
-                                  </span>
-                              </div>
-                          </form>
-                 
-                      
-                          </div>
-                      </div>
-                      
-                      <div class="col-md-5">
-                          		<div class="form-group input-group">
-                          		<span class="input-group-addon">$</span>
-                              <input type="text" class="form-control" placeholder="0">
-                              <span class="input-group-addon">.00</span>
-                          </div>
-                      </div>
-                  </div>-->
-                  
-                  <!-- ONLY an add button-->
-                  <div class="row">
-                      <div class="col-md-6 col-md-offset-1">
-                          <button type="button" class="btn btn-success btn-block"><span class="glyphicon glyphicon-plus"></span> Add New Item</button>
-                      </div>
-                  </div>
-                  
-                  
-                  
-                  <!-- -------Dynamic Form ------------>             
-<!--                  <div class="control-group" id="fields">
-                      <label class="control-label" for="field1">Add another cost</label>
-                      <div class="controls"> 
-                          <form role="form" autocomplete="off">
-                              <div class="entry input-group col-xs-3">
-                                  <input class="form-control" name="fields[]" type="text" placeholder="Type something" />
-                                  
-                                  <span class="input-group-btn">
-                                      <button class="btn btn-success btn-add" type="button">
-                                          <span class="glyphicon glyphicon-plus"></span>
-                                      </button>
-                                  </span>
-                              </div>
-                          </form>
-                      <br>
-                      <small>Press <span class="glyphicon glyphicon-plus gs"></span> to add another form field :)</small>
-                      </div>
-                  </div>  -->                             
-                               
-                  <form>
-    
-
-</form>             
-                               
-
-
-              <!-- -------buck tape ------------>
-              </br>
-              </br>       
-                     
-                     
-             <!-- -------skills ------------>       
-             <!-----------------------------dynamic dropdown (Testing) -------------------------->
-                     <div class="container">
-							<div class="row">
-                      
-                              <div class="control-group" id="fields">
-            						<label class="control-label" for="field1">Skills</label>
-           							 <div class="controls"> 
-                					<form role="form" autocomplete="off">
-                    				<div class="entry input-group col-xs-6">	
-                                 
-                                 <select class="form-control" name="fields[]" type="text">
-                                    <option value="" selected="selected">Select a Skill</option>
-                                    <option value="">Marketing</option>
-                                    <option value="">Event Planning</option>
-                                    <option value="">Web Design</option>
-                                    <option value="">Web Development</option>
-                                    <option value="">Public Relation</option>
-                                    <option value="">Sales</option>
-                                    <option value="">Project Management</option>
-                                 </select>
-                    					<span class="input-group-btn">
-                           		 <button class="btn btn-success btn-add" type="button">
-                                		<span class="glyphicon glyphicon-plus"></span>
-                            		</button>
-                        			</span>
-                    			</div>
-               				 </form>
-            					<br>
-            					<!--<small>Press <span class="glyphicon glyphicon-plus gs"></span> Add another skill</small>-->
-            					</div>
-        					</div>
-                      
-                 		 </div>
-                 	 </div>  
-                     
-                     
-                     
-                     <!---------Time ------------>
-                      <!-- Date and time range -->
-                     
-                     
-                     
- 			<!-- -------buck tape ------------>
-              </br>
-              <div class="text-center">
-              
-              	
-    			<button type="button" class="btn btn-info  center-block">Continue</button>
-                
-              <!-- -------buck tape ------------>
-              </br>
-                
-              <!-- -------buck tape ------------>
-              </br>
+                  </br>
+                  </br>
+                  </br>
+                  </br>
+                  </br>
+                  </br>
+                  </br>
+                  </br>
+                  </br>
+                  </br>
+                  <div class="text-center">
+                  <h4>This part is coming soon</h4> 
+                  </div>                 
+                  </br>
+                  </br>
+                  </br>
+                  </br>
+                  </br>
+                  </br>
+                  </br>
+                  </br>
+                  </br>
+                  </br>
+                  </br>
+                    <button type="button" class="btn btn-info  center-block">Done</button>
+                    
+                  <!-- -------buck tape ------------>
+                  </br>
         
-          </div>
+          		</div>
         </div>
        </div>
       </div>
@@ -590,8 +336,8 @@
 
 
 		
-    <!-- dynamic form - adding a new skill or cost-->
-   <script src="js/jquery-1.10.2.js"></script>
+    <!-- JavaScript not sure what this is for??-->
+    <!--<script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.js"></script>
     <script type="text/javascript">
 	$(document).ready(function(e){
@@ -603,7 +349,7 @@
 		$('.input-group #search_param').val(param);
 			});
 		});
-	</script>
+	</script>-->
     
     
     <!-- Bootstrap WYSIHTML5 -->

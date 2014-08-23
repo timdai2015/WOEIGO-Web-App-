@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
@@ -25,8 +26,13 @@
     <!-- profile -->
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
     
-    <!-- bootstrap wysihtml5 - text editor -->
-    <link href="css/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" rel="stylesheet" type="text/css" />
+    <!-- SIMPLE bootstrap3 wysihtml5 - text editor -->
+    <link rel="stylesheet" type="text/css" href="lib/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="src/bootstrap-wysihtml5.css" />
+    <script src="lib/js/wysihtml5-0.3.0.js"></script>
+    <script src="lib/js/jquery-1.7.2.min.js"></script>
+    <script src="lib/js/bootstrap.min.js"></script>
+    <script src="src/bootstrap3-wysihtml5.js"></script>
 
 
 </head>
@@ -564,26 +570,39 @@
               </br>
               </br>
               
-              <div class="form-group">
+              <!--<div class="form-group">
                   <label>Project Description</label>
-                  <textarea class="form-control" rows="7" placeholder="What your project is about?" ></textarea>
-              </div> 		
+                  <textarea class="form-control" rows="7" placeholder="What your project is about?" ></textarea>                
+              </div> -->		
               
+              
+             
               
               <!-- -------Editor ------------>
+              <label>Project Description</label>
+                   
+              <!-- -------buck tape ------------>
+              </br>
+              <div class="hero-unit" >
+ 
+       				 <textarea class="textarea form-control" placeholder="Describe your project ..." style=" height: 200px"></textarea>
+    		  </div>
+             
+             
               
+              <!-- -------buck tape ------------>
+              </br>
+              <div class="text-center">
               
-              
-              
-              
-              
-            
-            	<button type="button" class="btn btn-info  center-block">Continue</button>
+    			<button type="button" class="btn btn-info  center-block">Continue</button>
                 
               <!-- -------buck tape ------------>
               </br>
-        
+        	   </div>
+               
           </div>
+          
+          
         </div>
        </div>
       </div>
@@ -629,12 +648,20 @@
     </footer>
     
 
-	
 
+    <!-------simple editor bootstrap3 wysihtml5-------->
+	<script>
+        $('.textarea').wysihtml5();
+    </script>
+    
+    <script type="text/javascript" charset="utf-8">
+        $(prettyPrint);
+    </script>   
+ 
 
 		
-    <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
+    <!-- JavaScript Search dropdown buttons? -->
+    <!--<script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.js"></script>
     <script type="text/javascript">
 	$(document).ready(function(e){
@@ -646,11 +673,11 @@
 		$('.input-group #search_param').val(param);
 			});
 		});
-	</script>
+	</script>-->
     
     
-    <!-- Bootstrap WYSIHTML5 -->
-    <script src="js/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" type="text/javascript"></script>
+ 
+    
 
 </body>
 
