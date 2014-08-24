@@ -47,7 +47,7 @@ h1 {
 
 .form-control {
 	
-	font-size:17px;
+	/*font-size:17px;*/
 	width: 100% ;
 	background-color:rgba(255,255,255,0.0);
 	margin-left: 0px; 
@@ -160,7 +160,8 @@ p.copyright {
 
 .globe {
 	
-	margin: 100px 30% 20px 30%;
+	/*margin: 100px 30% 20px 30%;*/
+	margin-top:70px;
 
 }
 
@@ -185,22 +186,23 @@ p.copyright {
 
 
 .ball {
-	border:rgba(199,199,199,0.30) solid;
+  border:rgba(199,199,199,0.30) solid;
   display: inline-block;
   width: 100%;
   height: 100%;
-  margin: 0;
+  margin-left:10px;
+
   border-radius: 50%;
   position: relative;
   -webkit-transform-style: preserve-3d;
   background:url("../img/world-map-one-color.png") repeat-x; 
 
   background-size: auto 100%;
-  -webkit-animation: move-map 30s infinite linear;
-  -moz-animation: move-map 30s infinite linear;
-  -o-animation: move-map 30s infinite linear;
-  -ms-animation: move-map 30s infinite linear;
-  animation: move-map 30s infinite linear;
+  -webkit-animation: move-map 280s infinite linear;
+  -moz-animation: move-map 280s infinite linear;
+  -o-animation: move-map 280s infinite linear;
+  -ms-animation: move-map 280s infinite linear;
+  animation: move-map 280s infinite linear;
 }
 
 .ball:before {
@@ -265,7 +267,7 @@ p.copyright {
 
 @-moz-keyframes move-map {
   0% {
-    background-position: -849px 0; }
+    background-position: -3842px 0; }
 
   100% {
     background-position: 0 0; } }
@@ -274,27 +276,27 @@ p.copyright {
   0% {
     background-position: 0 0; }
   100% {
-    background-position: -849px 0; }
+    background-position: -3842px 0; }
 }
 
 
 @-o-keyframes move-map {
   0% {
-    background-position: -849px 0; }
+    background-position: -3842px 0; }
 
   100% {
     background-position: 0 0; } }
 
 @-ms-keyframes move-map {
   0% {
-    background-position: -849px 0; }
+    background-position: -3842px 0; }
 
   100% {
     background-position: 0 0; } }
 
 @keyframes move-map {
   0% {
-    background-position: -849px 0; }
+    background-position: -3842px 0; }
 
   100% {
     background-position: 0 0; } }
@@ -330,7 +332,7 @@ figure {
 }
 
 .profile-summary{
-	margin-top:	0px;
+	margin-top:	130px;
 	
 }
 
