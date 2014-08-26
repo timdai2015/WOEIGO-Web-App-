@@ -1484,18 +1484,11 @@ img {
 /*-----------------Share Button--------------- */
 
 .mobile-social-share {
-    background: none repeat scroll 0 0 #EEEEEE;
-    display: block !important;
-    min-height: 70px !important;
-    margin: 50px 0;
+    
+
+    
 }
 
-body {
-    color: #777777;
-    font-family: "Lato","Helvetica Neue","Arial","Helvetica",sans-serif;
-    font-size: 13px;
-    line-height: 19.5px;
-}
 
 
 .mobile-social-share h3 {
@@ -1508,7 +1501,7 @@ body {
 
 .share-group {
     float: right;
-    margin: 18px 25px 0 0;
+   /* margin: 18px 25px 0 0;*/
 }
 
 .btn-group {
@@ -1523,6 +1516,8 @@ body {
     float: right;
     list-style: none outside none;
     margin: 0;
+	/*margin-left:40px;*/
+	right:0px;
     min-width: 61px;
     padding: 0;
 }
@@ -1548,43 +1543,43 @@ body {
 
 .btn-twitter {
     background-color: #3399CC !important;
-    width: 51px;
+    width: 91px;
     color:#FFFFFF!important;
 }
 
 .btn-facebook {
     background-color: #3D5B96 !important;
-    width: 51px;
+    width: 91px;
     color:#FFFFFF!important;
 }
 
 .btn-facebook {
     background-color: #3D5B96 !important;
-    width: 51px;
+    width: 91px;
     color:#FFFFFF!important;
 }
 
 .btn-google {
     background-color: #DD3F34 !important;
-    width: 51px;
+    width: 91px;
     color:#FFFFFF!important;
 }
 
 .btn-linkedin {
     background-color: #1884BB !important;
-    width: 51px;
+    width: 91px;
     color:#FFFFFF!important;
 }
 
 .btn-pinterest {
     background-color: #CC1E2D !important;
-    width: 51px;
+    width: 91px;
     color:#FFFFFF!important;
 }
 
 .btn-mail {
     background-color: #FFC90E !important;
-    width: 51px;
+    width: 91px;
     color:#FFFFFF!important;
 }
 
@@ -1600,7 +1595,7 @@ body {
 }
 
 #socialShare {
-    max-width:59px;
+    /*max-width:59px;*/
     margin-bottom:18px;
 }
 
