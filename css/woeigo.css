@@ -341,6 +341,7 @@ figure {
 {
     min-height: 355px;
     display: inline-block;
+	background-color:rgba(255,255,255,1.00);
     }
 figcaption.ratings
 {
@@ -363,6 +364,7 @@ figcaption.ratings a:hover
 .emphasis 
 {
     border-top: 4px solid transparent;
+	
     }
 .emphasis:hover 
 {
@@ -1481,12 +1483,41 @@ img {
 
 
 
-/*-----------------Share Button--------------- */
+/*-----------------Share Button and follow button--------------- */
 
+
+.follow-button {
+	padding-right:0px;
+	margin-right:0px;
+}
+
+.share-button {
+	padding-left:0px;
+	margin-left:0px;
+	
+}
+
+
+.icon-align {
+	
+	margin-top:20%;
+	/*----keep the Share text and icon vertically centered*/
+	
+	
+	
+}
+
+
+.view-buttons {
+	height:50px;
+		
+	
+}
+
+
+ /*----still need this so the css below (parent-child) works*/
 .mobile-social-share {
-    
-
-    
+    /*----still need this so the css below (parent-child) works*/
 }
 
 
@@ -1543,43 +1574,43 @@ img {
 
 .btn-twitter {
     background-color: #3399CC !important;
-    width: 91px;
+    width: 119px;
     color:#FFFFFF!important;
 }
 
 .btn-facebook {
     background-color: #3D5B96 !important;
-    width: 91px;
+    width: 119px;
     color:#FFFFFF!important;
 }
 
 .btn-facebook {
     background-color: #3D5B96 !important;
-    width: 91px;
+    width: 119px;
     color:#FFFFFF!important;
 }
 
 .btn-google {
     background-color: #DD3F34 !important;
-    width: 91px;
+    width: 119px;
     color:#FFFFFF!important;
 }
 
 .btn-linkedin {
     background-color: #1884BB !important;
-    width: 91px;
+    width: 119px;
     color:#FFFFFF!important;
 }
 
 .btn-pinterest {
     background-color: #CC1E2D !important;
-    width: 91px;
+    width: 119px;
     color:#FFFFFF!important;
 }
 
 .btn-mail {
     background-color: #FFC90E !important;
-    width: 91px;
+    width: 119px;
     color:#FFFFFF!important;
 }
 
@@ -1600,7 +1631,7 @@ img {
 }
 
 #socialShare > a{
-    padding: 6px 10px 6px 10px;
+    padding: 6px 24px;
 }
 
 @media (max-width : 320px) {
@@ -1628,4 +1659,23 @@ img {
     .mobile-social-share h3 {
         font-size: 12px;
     }
+}
+
+
+
+/*----------------------------------------------------- */
+/*--------------------ALL Pages -------------------- */
+/*-------------------------------- -------------------- */
+
+
+.panel-heading-woeigo {
+	
+	background-color:rgba(255,255,255,1.00) !important;
+	border-color:rgba(255,255,255,1.00) !important;
+}
+
+.panel-margin-woeigo {
+	
+	margin-bottom:30px;	
+	
 }
