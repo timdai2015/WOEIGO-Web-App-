@@ -737,8 +737,79 @@ EDTA’s membership includes vehicle and equipment manufacturers, energy compani
 
 
  <!-----------------------------------Costs------------------------------------------->
-     
-     
+ <!---------See javascript at the bottom for pie chart values---------->
+   
+ <div class="container panel-margin-woeigo">
+	<div class="row">
+      <div class="col-md-offset-1 col-md-10 col-lg-offset-1 col-lg-10">
+          <div class="panel panel-default ">
+            <div class="panel-heading panel-heading-woeigo">
+            <i class="fa fa-star"></i><strong> Cost Breakdown </strong>
+            </div>        
+              <div class="panel-body">   
+                
+              	<div class="row">  
+                	<div class="col-xs-12 col-lg-4 pie-chart-placement ">
+                      <div id="canvas-holder ">
+                          <canvas id="chart-area" width="284" height="284"/>
+                      </div>
+                   </div> 
+                   
+                	<div class="col-xs-12 col-lg-8">
+                      <div class="table-responsive">
+                                      <table class="table ">
+                                          <thead>
+                                              <tr>
+                                                  <th>Item</th>
+                                                  <th>Cost</th>
+                                                  <th>Percentage</th>
+                                              </tr>
+                                          </thead>
+                                          
+                                          <tbody>
+                                          
+                                          	 <tr >
+                                                  <td><strong>Total</strong></td>
+                                                  <td><strong>$1,000,000</strong></td>
+                                                  <td></td>
+                                              </tr>
+                                              
+                                              <tr >
+                                                  <td style="background-color:#FF8989; color:white;" >Engineering</td>
+                                                  <td>$300,000</td>
+                                                  <td>50%</td>
+                                              </tr>
+                                              <tr >
+                                                  <td style="background-color:#46BFBD; color:white;">Marketing</td>
+                                                  <td>$50,000</td>
+                                                  <td>5%</td>
+                                              </tr>
+                                              <tr>
+                                                  <td style="background-color:#FFD657; color:white;">Design</td>
+                                                  <td>100,000</td>
+                                                  <td>20%</td>
+                                              </tr>
+                                              <tr >
+                                                  <td style="background-color:#5CCCE6; color:white;">Testing</td>
+                                                  <td>40,000</td>
+                                                  <td>5%</td>
+                                              </tr>
+                                              <tr >
+                                                  <td style="background-color:#BCBCBC; color:white;">Material</td>
+                                                  <td>100,000</td>
+                                                  <td>20%</td>
+                                              </tr>
+                                             
+                                          </tbody>
+                                      </table>
+                         </div>
+                		</div>
+                </div>
+              </div>
+          </div>
+      </div>
+	</div>
+</div>      
      
      
      
@@ -812,6 +883,57 @@ EDTA’s membership includes vehicle and equipment manufacturers, energy compani
 		$('.input-group #search_param').val(param);
 			});
 		});
+	</script>
+    
+    
+    
+    
+    
+    <!---------pie chart link---------->
+    <script src="js/Chart.js"></script>
+    
+    <!---------pie chart values---------->
+    <script>
+
+		var pieData = [
+				{
+					value: 300000,
+					color:"#FF8989",
+					highlight: "#FF5A5E",
+					label: "Engineering"
+				},
+				{
+					value: 50000,
+					color: "#46BFBD",
+					highlight: "#5AD3D1",
+					label: "Marketing"
+				},
+				{
+					value: 100000,
+					color: "#FFD657",
+					highlight: "#FFC870",
+					label: "Design"
+				},
+				{
+					value: 40000,
+					color: "#5CCCE6",
+					highlight: "#A8B3C5",
+					label: "Testing"
+				},
+				{
+					value: 120000,
+					color: "#BCBCBC",
+					highlight: "#616774",
+					label: "Material"
+				}
+
+			];
+
+			window.onload = function(){
+				var ctx = document.getElementById("chart-area").getContext("2d");
+				window.myPie = new Chart(ctx).Pie(pieData);
+			};
+
 	</script>
 
 </body>
