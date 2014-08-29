@@ -34,7 +34,7 @@
 <div class="page-wrap">
 
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
+            <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                     <span class="sr-only">Toggle navigation</span>
@@ -146,27 +146,24 @@
                 </li>
                     
                     
-                    
-                    <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                        <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
-                    </a>
-                    <ul class="dropdown-menu dropdown-user">
-                        <li><a href="profile.html"><i class="fa fa-user fa-fw"></i> User Profile</a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
-                        </li>
-                        <li class="divider"></li>
-                        <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
-                        </li>
-                    </ul>
-                    <!-- /.dropdown-user -->
-                	</li>
-	
-
+                <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
+                </a>
+                <ul class="dropdown-menu dropdown-user">
+                    <li><a href="profile.html"><i class="fa fa-user fa-fw"></i> User Profile</a>
+                    </li>
+                    <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
+                    </li>
+                    <li class="divider"></li>
+                    <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                    </li>
                 </ul>
-                
-                
+                <!-- /.dropdown-user -->
+                </li>
+	
+                </ul>
+
             </div>
             <!-- /.navbar-collapse -->
         </div>
@@ -225,21 +222,18 @@
                               <h6><i class="fa fa-map-marker"></i><strong> </strong> Vancouver, Canada </h6>
                          </div>
                       </div>
-</br>
+						</br>
   
                       <div class="project-description">
                           <p>If any elephants are to survive, all ivory trade must stop, concludes a new study examining the viability of regulated trade...</p>
                      </div>
-                 
                   </div>
-                  
                </div>
                 
                 <a href="project_view.html" class="btn btn-info col-xs-12" role="button">View Project</a>
                 <div class="clearfix"></div>
             </div>
         </div>
-        
         
         
         
@@ -288,9 +282,7 @@
                       <div class="project-description"> 
                           <p>Air pollution is the introduction of particulates, biological molecules, or other harmful materials into the Earth's atmosphere.</p><!-------Brent, limit the max number of characters to 150 to keep everything looks properly----------------->
                      </div>
-                 
                   </div>
-                  
                </div>
                 
                 <a href="project_view.html" class="btn btn-info col-xs-12" role="button">View Project</a>
@@ -345,9 +337,7 @@
                       <div class="project-description">
                           <p>Throughout the developing world, going to school is rarely free. Students are required to pay their own transportation costs, purchase uniforms, textbooks, notebooks and pencils.</p>
                      </div>
-                 
                   </div>
-                  
                </div>
                 
                 <a href="project_view.html" class="btn btn-info col-xs-12" role="button">View Project</a>
@@ -505,7 +495,8 @@
                               <h6><i class="fa fa-map-marker"></i><strong> </strong> San Francisco, United States </h6>
                          </div>
                       </div>
-</br>
+						
+                      </br>
   
                       <div class="project-description">
                           <p>All-electric vehicles (EVs) run on electricity only. They are propelled by an electric motor (or motors) powered by rechargeable battery packs.</p>
@@ -620,11 +611,8 @@
                       <div class="project-description">
                           <p>If any elephants are to survive, all ivory trade must stop, concludes a new study examining the viability of regulated trade...</p>
                      </div>
-                 
                   </div>
-                  
                </div>
-                
                 <a href="project_view.html" class="btn btn-info col-xs-12" role="button">View Project</a>
                 <div class="clearfix"></div>
             </div>
@@ -670,7 +658,7 @@
                               <h6><i class="fa fa-map-marker"></i><strong> </strong> Vancouver, Canada </h6>
                          </div>
                       </div>
-</br>
+						</br>
   
                       <div class="project-description">
                           <p>If any elephants are to survive, all ivory trade must stop, concludes a new study examining the viability of regulated trade...</p>
@@ -687,21 +675,16 @@
 
  
    
+    	</div>
+	</div>
+
+    <div class="row">
+      <h4 class="text-center"><a href="#"> More </a> </h5>
+      <hr/>
     </div>
-</div>
-
-<div class="row">
-  <h4 class="text-center"><a href="#"> More </a> </h5>
-  <hr/>
-</div>
 
 
-</div>
-
-
-
-
-
+</div> <!-- end of project view (supposed to be called preview) -->
 
 
 
@@ -750,13 +733,14 @@
 		$('.input-group #search_param').val(param);
 			});
 		});
+		
 	</script>
     <!--------------------Tooltips---------------------------->
     
     <script type="text/javascript">
-$(document).ready( function() {
+	$(document).ready( function() {
     $('[data-toggle="tooltip"]').tooltip();
-});</script>
+	});</script>
 
 </body>
 

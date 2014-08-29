@@ -51,9 +51,7 @@
                 <a class="navbar-brand logo-icon" href="index.html"><img src="img/logo.png"></a>
             </div>
             
-            
-            
-             <!----------------------The Search Bar--------------------------->
+			<!----------------------The Search Bar--------------------------->
     
             <div class="col-sm-5 col-sm-offset-2 col-xs-12 col-xs-offset-0 search-div">
             <div class="input-group">
@@ -151,28 +149,22 @@
                     <!-- /.dropdown-alerts -->
                 </li>
                     
-                    
-                    
-                    <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                        <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
-                    </a>
-                    <ul class="dropdown-menu dropdown-user">
-                        <li><a href="profile.html"><i class="fa fa-user fa-fw"></i> User Profile</a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
-                        </li>
-                        <li class="divider"></li>
-                        <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
-                        </li>
-                    </ul>
-                    <!-- /.dropdown-user -->
-                	</li>
-	
-
+                <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
+                </a>
+                <ul class="dropdown-menu dropdown-user">
+                    <li><a href="profile.html"><i class="fa fa-user fa-fw"></i> User Profile</a>
+                    </li>
+                    <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
+                    </li>
+                    <li class="divider"></li>
+                    <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                    </li>
                 </ul>
-                
-                
+                <!-- /.dropdown-user -->
+                </li>
+                </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
@@ -188,8 +180,6 @@
 
 
 <div class="container progress-step-list">
-		
-        
             <div class="row bs-wizard" style="border-bottom:0;">
               	<!-----------swith  "complete" with " disabled" ---------->
                <!--<div class="col-xs-3 bs-wizard-step complete">  
@@ -198,7 +188,6 @@
                   <a href="#" class="bs-wizard-dot"></a>
                   <div class="bs-wizard-info text-center">Step 1</div>
                 </div>-->
-                
                 
           		 <!-----change "col-xs-4" to change the number of steps------->
                 <div class="col-xs-4 bs-wizard-step complete"><!-- complete -->  <!-----------swith  "complete" with " disabled" ---------->
@@ -222,16 +211,8 @@
                   <div class="bs-wizard-info text-center">Step 3</div>
                 </div>
             </div>
-        
-        
-        
-        
-        
+
 	</div>
-
-
-
-
 
 
 
@@ -240,19 +221,16 @@
 <!------------------------------------------------------------------------------------>
 
 <div class="container">
-
 	<div class="row">
+    	<div class="col-md-offset-1 col-md-10 col-lg-offset-1 col-lg-10">
+    		<div class="panel panel-default">
     
-    <div class="col-md-offset-1 col-md-10 col-lg-offset-1 col-lg-10">
-    <div class="panel panel-default">
-    
-      <!--<div class="panel-heading">
-      <i class="fa fa-star"></i> Interested Causes
-      </div> -->
+            <!--<div class="panel-heading">
+            <i class="fa fa-star"></i> Interested Causes
+            </div> -->
     	
-      <div class="panel-body">
-                            
-                 <div class="text-center">
+     		<div class="panel-body">
+				<div class="text-center">
                  	 <a href="project_create1.html">
                     <button type="button" class="btn btn-default pull-left ">Back</button>
                     </a>
@@ -260,9 +238,9 @@
                   <!-- -------buck tape ------------>
                   </br>
                   </br>
-                 </div>   
+  				</div>   
                                
-                 <div class="col-lg-offset-2 col-lg-8">
+				<div class="col-lg-offset-2 col-lg-8">
                       <form role="form">
                       <!-- -------buck tape ------------>
                       </br>
@@ -303,7 +281,6 @@
                       <!-- -------Cost Total ------------>
                       	<label>Cost Total</label>
                        <div class="form-group input-group">
-                          
                           <span class="input-group-addon">$</span>
                           <input class="form-control" placeholder="0">
                           <span class="input-group-addon">.00</span>
@@ -329,10 +306,8 @@
                               <option value="">Tech</option>
                               <option value="">Human Resources</option>
                               <option value="">More</option>
-
                          	 	</select>
-                              
-                              
+
                           </div>
                       </div>
                       <div class="col-md-5">
@@ -495,39 +470,39 @@
                      
              <!-- -------skills ------------>       
              <!-----------------------------dynamic dropdown (Testing) -------------------------->
-                     <div class="container">
-							<div class="row">
-                      
-                              <div class="control-group" id="fields">
-            						<label class="control-label" for="field1">Skills</label>
-           							 <div class="controls"> 
-                					<form role="form" autocomplete="off">
-                    				<div class="entry input-group col-xs-6">	
-                                 
-                                 <select class="form-control" name="fields[]" type="text">
-                                    <option value="" selected="selected">Select a Skill</option>
-                                    <option value="">Marketing</option>
-                                    <option value="">Event Planning</option>
-                                    <option value="">Web Design</option>
-                                    <option value="">Web Development</option>
-                                    <option value="">Public Relation</option>
-                                    <option value="">Sales</option>
-                                    <option value="">Project Management</option>
-                                 </select>
-                    					<span class="input-group-btn">
-                           		 <button class="btn btn-success btn-add" type="button">
-                                		<span class="glyphicon glyphicon-plus"></span>
-                            		</button>
-                        			</span>
-                    			</div>
-               				 </form>
-            					<br>
-            					<!--<small>Press <span class="glyphicon glyphicon-plus gs"></span> Add another skill</small>-->
-            					</div>
-        					</div>
-                      
-                 		 </div>
-                 	 </div>  
+             <div class="container">
+                    <div class="row">
+              
+                      <div class="control-group" id="fields">
+                            <label class="control-label" for="field1">Skills</label>
+                             <div class="controls"> 
+                            <form role="form" autocomplete="off">
+                            <div class="entry input-group col-xs-6">	
+                         
+                         <select class="form-control" name="fields[]" type="text">
+                            <option value="" selected="selected">Select a Skill</option>
+                            <option value="">Marketing</option>
+                            <option value="">Event Planning</option>
+                            <option value="">Web Design</option>
+                            <option value="">Web Development</option>
+                            <option value="">Public Relation</option>
+                            <option value="">Sales</option>
+                            <option value="">Project Management</option>
+                         </select>
+                                <span class="input-group-btn">
+                         <button class="btn btn-success btn-add" type="button">
+                                <span class="glyphicon glyphicon-plus"></span>
+                            </button>
+                            </span>
+                        </div>
+                     </form>
+                        <br>
+                        <!--<small>Press <span class="glyphicon glyphicon-plus gs"></span> Add another skill</small>-->
+                        </div>
+                    </div>
+              
+                 </div>
+             </div>  
                      
                      
                      
@@ -649,19 +624,19 @@
 	<!--------------------date picker-------------------->
 		
         
-       <!-- jQuery 2.0.2 -->
+		<!-- jQuery 2.0.2 -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
         <!-- Bootstrap -->
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
      
-     <!-- InputMask -->
+     	<!-- InputMask -->
         <script src="js/input-mask/jquery.inputmask.js" type="text/javascript"></script>
         <script src="js/input-mask/jquery.inputmask.date.extensions.js" type="text/javascript"></script>
         <script src="js/input-mask/jquery.inputmask.extensions.js" type="text/javascript"></script>
         <!-- date-range-picker -->
         <script src="js/daterangepicker/daterangepicker.js" type="text/javascript"></script>
      
-     <script type="text/javascript">
+    	<script type="text/javascript">
             $(function() {
                 //Datemask dd/mm/yyyy
                 $("#datemask").inputmask("dd/mm/yyyy", {"placeholder": "dd/mm/yyyy"});
